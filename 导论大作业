@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+    <script src="https://fastly.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+    <script src="https://fastly.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<ul class="nav nav-tabs">
+    <li role="presentation"><a href="计算机网络是计算机技术和通信技术紧密结合的产物.docx">对于计算机专业的认知</a></li>
+    <li role="presentation"><a href="1.html">学业规划</a></li>
+</ul>
+<    <!-- Single button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        学科关系图 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="关系图.png">计算机各学科关系图图</a></li>
+        <li><a href="作业.html">计算机与其他科目的相关性</a></li>
+        <li><a href="历史发展图.png">计算机历史发展关系图</a></li>
+    </ul>
+
+<!-- Single button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        学习资料 <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2019&filename=ZDYY201812027&uniplatform=NZKPT&v=E8ZnB_liCxtArA8Qo10wzutTUmX_vY2HvLdek9ebSsE_8IJpzmx-3EztrKBR8quv">资料一</a></li>
+        <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CDFD&dbname=CDFD1214&filename=1013209255.nh&uniplatform=NZKPT&v=9vu8VEXGMLXnhzgYlKqjftXSRikPIdgePCOt74vQ64QjMMu8Qy7VFDsTFZ5HGUub">资料二</a></li>
+        <li><a href="https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CJFD&dbname=CJFDLAST2018&filename=XDXK201811060&uniplatform=NZKPT&v=8mOsj2nAXggP-mHocEM7vTfB4ngmb68hraXlQTe3i2jWXDHtm9ljwl9i3fM1anaQ">资料三</a></li>
+        <li role="separator" class="divider"></li>
+        <li><a href="https://kns.cnki.net/kns8/defaultresult/index">论文检索</a></li>
+    </ul>
+</div>
+
+<script src="https://fastly.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+</body>
+</html>
